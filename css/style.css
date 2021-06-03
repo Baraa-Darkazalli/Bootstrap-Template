@@ -1,0 +1,521 @@
+/* ****************************** Start Global Rules ****************************** */
+*{
+    box-sizing: border-box;
+}
+body{
+    color: var(--black);
+    overflow: hidden;
+}
+:root{
+    --main-color: #E41B17;
+    --black: #212529;
+    --red: #E41B17;
+    --black: #212529;
+    --yellow: #eae308;
+    --pink: #ea08ce;
+    --white: #fff;
+    --green: green;
+    --gray: #eee;
+    --blue: #0895d1;
+    --black-gray: #2f3133;
+    --gray-image: #999999;
+    --seconde-white: #ededed;
+    --transition: .3s ease;
+}
+.section-title{
+    color: var(--black);
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.hr-title-g{
+    margin: 0;
+    width: 20%;
+    display: inline-block;
+    position: relative;
+    top: -35px;
+    border: var(--green) 1px solid;
+    color: var(--green);
+}
+.hr-title-r{
+    margin: 0;
+    width: 20%;
+    display: inline-block;
+    position: relative;
+    top: -35px;
+    border: var(--main-color) 1px solid;
+    color: var(--main-color);
+}
+.section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-g{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--gray);
+}
+/* ****************************** End Global Rules ****************************** */
+
+/* *************** Start Navbar *************** */
+.navbar-brand span{
+    font-size: .75em;
+    color: var(--main-color);
+}
+/* *************** End Navbar *************** */
+
+/* *************** Start Tool Box *************** */
+.option-box{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 9999;
+}
+.option-box .color-option h4{
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 2px 0 0;
+}
+.option-box .color-option{
+    float: right;
+    display: none;
+    padding: 10px;
+    border-radius: 25px;
+    color: #fff;
+    background: var(--black);
+    width: 250px;
+    text-align: center;
+    margin-left: 5px;
+    border: solid 4px var(--main-color);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.option-box .color-option ul{
+    display: inline-block;
+    margin: 0;
+}
+.option-box .color-option ul li{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.option-box .color-option ul .red{
+    background: #E41B17;
+}
+.option-box .color-option ul .blue{
+    background: #0895d1;
+}
+.option-box .color-option ul .yellow{
+    background: #eae308;
+}
+.option-box .color-option ul .pink{
+    background: #ea08ce;
+}
+.option-box .color-icon{
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 21px;
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--black);
+}
+.option-box .color-icon:hover{
+    background-color: var(--main-color);
+}
+/* *************** End Tool Box *************** */
+
+/* *************** Start Carousel *************** */
+/* *************** End Carousel *************** */
+
+/* *************** Start About Section *************** */
+.about h1 span{
+    color: var(--main-color);
+    font-size: 1.7rem;
+}
+/* *************** End About Section *************** */
+
+/* *************** Start Features Section *************** */
+.feat{
+    margin-bottom: 30px;
+}
+.feat p{
+    line-height: 2em;
+}
+.features h4{
+    font-weight: bold;
+}
+.feat i{
+    font-size: 40px;
+    color: var(--green);
+    margin-bottom: 7px;
+}
+
+/* *************** End Features Section *************** */
+
+/* *************** Start Testimonials Section *************** */
+.testimonials .lead{
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+.testimonials span{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--main-color);
+    /* align-self: flex-end; */
+}
+/* *************** End Testimonials Section *************** */
+
+/* *************** Start Price Section *************** */
+.price .price-box{
+    background-color: var(--white);
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.price .price-box h2{
+    padding: 5px 0 10px;
+}
+.price .price-box p{
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--black-gray);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    background-color: var(--gray);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -ms-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    border: 3px solid var(--white);
+}
+.price .price-box ul{
+    line-height: 250%;
+    font-size: 18px;
+}
+.price .price-box:hover p{
+    border: 3px solid var(--gray-image);
+    transform:scale(1.1,1.1) rotate(360deg);
+    -webkit-transform:scale(1.1,1.1) rotate(360deg);
+    -moz-transform:scale(1.1,1.1) rotate(360deg);
+    -ms-transform:scale(1.1,1.1) rotate(360deg);
+    -o-transform:scale(1.1,1.1) rotate(360deg);
+}
+/* *************** End Price Section *************** */
+
+/* *************** Start Our Team Section *************** */
+.team{
+    background: url("../images/team.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 600px;
+}
+.team .background{
+    background: rgba(20, 2, 2, .8);
+    color: var(--white);
+    min-height: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.team h1{
+    margin-bottom: 50px;
+    color: var(--seconde-white);
+}
+.team hr{
+    top: -56px;
+}
+.team .person{
+    margin-bottom: 50px;
+}
+.person img{
+    filter: grayscale(100%);
+    margin-bottom: 8px;
+    -webkit-filter: grayscale(100%);
+}
+.person h3{
+    color: var(--main-color);
+    
+}
+.person p{
+    font-size: 1rem;
+}
+.person i{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+/* *************** End Our Team Section *************** */
+
+/* *************** Start Subscribe Section *************** */
+.subscribe input{
+    border-radius: 0;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    margin-right: -5px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.subscribe button{
+    border-radius: 0;
+    margin-top: -9px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+/* *************** End Subscribe Section *************** */
+
+/* *************** Start Stats Section *************** */
+.stat{
+    background: url(../images/stat.jpg)no-repeat center center fixed;
+    background-size: cover;
+    min-height: 300px;
+}
+.stat h1{
+    color: var(--seconde-white);
+    margin-bottom: 50px;
+}
+.stat hr{
+    top: -56px;
+}
+.stat .background{
+    background: rgba(20, 2, 2, .8);
+    color: var(--white);
+    min-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.stat .stats p{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.stat .stats span{
+    font-size: 18px;
+}
+.stat .stats{
+    margin-bottom: 50px;
+    color: var(--gray-image);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.stat .stats:hover{
+    color: var(--white);
+}
+/* *************** End Stats Section *************** */
+
+/* *************** Start Skils Section *************** */
+/* *************** End Skils Section *************** */
+
+/* *************** Start Contact Section *************** */
+.contact{
+    background: url(../images/contact.jpg)no-repeat center center fixed;
+    background-size: cover;
+    min-height: 300px;
+}
+.contact h1{
+    color: var(--seconde-white);
+    margin-bottom: 0;
+}
+
+.contact .background{
+    background: rgba(20, 2, 2, .8);
+    color: var(--white);
+    min-height: 300px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.contact button{
+    font-size: 1.25rem;
+}
+.contact textarea{
+    height: 112px;
+}
+.contact input[type="text"],
+.contact textarea{
+    background: rgba(82, 78, 78, .5);
+    color: #fff;
+    border: none;
+}
+/* *************** End Contact Section *************** */
+
+/* *************** End Clients Section *************** */
+.clients{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.clients img{
+    opacity: .4;
+    filter: alpha(opacity=40);
+    -webkit-filter: alpha(opacity=40);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.clients img:hover{
+    opacity: 1;
+}
+/* *************** End Clients Section *************** */
+
+/* *************** Start Footer Section *************** */
+footer{
+    background-color: var(--black);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #aaa;
+}
+footer a{
+    color: #aaa;
+}
+footer a:hover{
+    color: var(--white);
+}
+footer h3{
+    color: var(--main-color);
+    letter-spacing: 1px;
+    margin: 30px 0 20px;
+}
+footer .three-col{
+    overflow: hidden;
+}
+footer .three-col li{
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+}
+footer .social{
+    overflow: hidden;
+    margin: 20px 0 10px;
+}
+footer .social li{
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+    opacity: .7;
+    filter:alpha(opacity=70);
+    -webkit-filter:alpha(opacity=70);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+footer .social li:hover{
+    opacity: 1;
+}
+footer .media{
+    margin-bottom: 10px;
+}
+footer .copyright{
+    padding: 15px 0;
+}
+footer span{
+    color: var(--main-color);
+}
+/* *************** End Footer Section *************** */
+
+/* *************** Start Loading Section *************** */
+.loading{
+    background-color: var(--black);
+    color: var(--white);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+.sk-chase {
+    width: 60px;
+    margin: 200px auto;
+    height: 60px;
+    position: relative;
+    animation: sk-chase 2.5s infinite linear both;
+  }
+  
+  .sk-chase-dot {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    animation: sk-chase-dot 2.0s infinite ease-in-out both; 
+  }
+  
+  .sk-chase-dot:before {
+    content: '';
+    display: block;
+    width: 25%;
+    height: 25%;
+    background-color: #fff;
+    border-radius: 100%;
+    animation: sk-chase-dot-before 2.0s infinite ease-in-out both; 
+  }
+  .sk-chase-dot:nth-child(1) { animation-delay: -1.1s; }
+  .sk-chase-dot:nth-child(2) { animation-delay: -1.0s; }
+  .sk-chase-dot:nth-child(3) { animation-delay: -0.9s; }
+  .sk-chase-dot:nth-child(4) { animation-delay: -0.8s; }
+  .sk-chase-dot:nth-child(5) { animation-delay: -0.7s; }
+  .sk-chase-dot:nth-child(6) { animation-delay: -0.6s; }
+  .sk-chase-dot:nth-child(1):before { animation-delay: -1.1s; }
+  .sk-chase-dot:nth-child(2):before { animation-delay: -1.0s; }
+  .sk-chase-dot:nth-child(3):before { animation-delay: -0.9s; }
+  .sk-chase-dot:nth-child(4):before { animation-delay: -0.8s; }
+  .sk-chase-dot:nth-child(5):before { animation-delay: -0.7s; }
+  .sk-chase-dot:nth-child(6):before { animation-delay: -0.6s; }
+  
+  @keyframes sk-chase {
+    100% { transform: rotate(360deg); } 
+  }
+  
+  @keyframes sk-chase-dot {
+    80%, 100% { transform: rotate(360deg); } 
+  }
+  
+  @keyframes sk-chase-dot-before {
+    50% {
+      transform: scale(0.4); 
+    } 100%, 0% {
+      transform: scale(1.0); 
+    } 
+  }
+/* *************** End Loading Section *************** */
+
+/* *************** Start Scrool To Top *************** */
+#scroll-to-top i{
+    color: var(--white);
+    background: var(--black);
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    /* display: none; */
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+#scroll-to-top i:hover{
+    background-color: var(--main-color);
+}
+/* *************** End Scrool To Top *************** */

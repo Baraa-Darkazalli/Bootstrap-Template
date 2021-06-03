@@ -1,0 +1,104 @@
+/* ******************************  Media  ****************************** */
+@media (min-width: 768px){
+    .container-fluid {
+        width: 750px;
+    }
+}
+@media (max-width: 767px){
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 10px;
+    }
+    .nav-link{
+        margin: 0;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .collapsing{
+        margin-right: -15px;
+        margin-left: -15px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .dropdown-menu{
+        text-align: center;
+        /* border: 1px solid var(--main-color); */
+        background-color: var(--black-gray);
+    }
+    .dropdown-menu[data-bs-popper]{
+        margin: 0;
+    }
+    .dropdown-menu{
+        padding: 0;
+    }
+    .dropdown-item:focus, .dropdown-item:hover{
+        padding: .25rem 1rem ;
+    }
+    .dropdown-item{
+        padding: 0.5rem 0;
+    }
+    .dropdown-item:focus, .dropdown-item:hover{
+        padding-left: 0;
+    }
+    nav .dropdown-divider{
+        border: 1.5px solid var(--black);
+        background-color: var(--black);
+        margin: 0;
+    }
+}
+@media(max-width: 650px){
+    .subscribe .form-control{
+        width: 100%;
+    }
+    .subscribe button{
+        width: 100%;
+        margin: 0;
+        margin-right: -5px;
+        margin-top: 10px;
+    }
+    .testimonials .carousel-indicators [data-bs-target]{
+        width: 70px;
+        height: 70px;
+    }
+    footer{
+        text-align: center;
+    }
+    footer h3{
+        font-size: 35px;
+    }
+}
+@media(max-width: 580px){
+    .testimonials .carousel-indicators [data-bs-target]{
+        width: 50px;
+        height: 50px;
+    }
+    .carousel h5{
+        font-size: 1rem;
+    }
+    .carousel p{
+        font-size: .75rem;
+    }
+}
+@media(max-width: 400px){
+    .clients .col-4 {
+        flex: 0 0 auto;
+        width: 30.333333%;
+    }
+    .testimonials .carousel-indicators [data-bs-target]{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (min-width: 992px){
+    .container-fluid {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px){
+    .container-fluid {
+        width: 1170px;
+    }
+}
+/* ******************************  Media  ****************************** */
